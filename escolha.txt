@@ -1,0 +1,24 @@
+algoritmo "escolha"
+// Função :
+// Autor :
+// Data : 22/09/2020
+// Seção de Declarações 
+var
+  S,I,C,R:CARACTER
+inicio
+    REPITA
+     ESCREVA("QUAL E O SEU SEXO[M/F]")
+     LEIA(S)
+     ESCREVA("QUAL E A SUA IDADE")
+     LEIA (I)
+     ESCREVA("QUAL E A COR DO CABEELO")
+     LEIA (C)
+     REPITA
+       ESCREVAL("[1]",S)
+       ESCREVAL("[2]",I)
+       ESCREVA("[3]",C)
+     ATE(S<=I<=C)
+     
+     ESCREVA("QUER CONTNUAR[S,N]")
+     ATE(R="N")
+fimalgoritmo
