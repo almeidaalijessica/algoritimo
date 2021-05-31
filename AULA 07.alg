@@ -1,8 +1,8 @@
-algoritmo "semnome"
-// FunÁ„o :
+algoritmo "idade"
+// Fun√ß√£o :
 // Autor :
 // Data : 17/09/2020
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
    nasc,ano,idade:inteiro
 inicio
@@ -15,7 +15,7 @@ inicio
       se(IDADE>=18)ENTAO
       ESCREVA ("JA ATINGIO MAIOR DE IDADE")
       SENAO
-      ESCREVA("N√O ANTIGIO E MAIOR DE IDADE")
+      ESCREVA("N√ÉO ANTIGIO E MAIOR DE IDADE")
       FIMSE
 fimalgoritmo
 
